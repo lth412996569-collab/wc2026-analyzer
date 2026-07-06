@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wc2026-analyzer
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python wc2026_cloud.py
+    plan: free
